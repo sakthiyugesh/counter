@@ -1,0 +1,38 @@
+body{
+    background:green;
+  }
+  
+  .container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    min-height: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border: 1px solid black;
+    border-radius:10px;
+    color: white;
+  }
+  
+  .counter h1{
+    color: #000;
+    font-size: 2rem;
+  }
+  
+  #count{font-size: 5rem;}
+  
+  #buttons{display: inline-block;}
+  
